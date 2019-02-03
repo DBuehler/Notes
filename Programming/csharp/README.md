@@ -53,3 +53,21 @@ Notes from converting a project of my from c# 4.6 to dotnet core
   ```
   dotnet add reference ../Project
   ```
+
+For NUnit tests...
+
+* The PropertyGroup in the .csproj file looks like...
+  ```
+   <PropertyGroup>
+     <TargetFramework>netcoreapp2.1</TargetFramework>
+     <IsPackable>false</IsPackable>
+     <IsTestProject>true</IsTestProject>
+   </PropertyGroup>
+   ```
+* Had to add the following package references...
+  ```
+  dotnet add package NUnit
+  dotnet add package NUnit3TestAdapter
+  dotnet add package Microsoft.NET.Test.Sdk
+  ```
+* Do: `dotnet test` to run tests

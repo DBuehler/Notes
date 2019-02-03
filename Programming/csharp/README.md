@@ -18,8 +18,11 @@ dotnet new web
 
 ## Converting from dotnet framework
 
+Notes from converting a project of my from c# 4.6 to dotnet core
+
+
 * Delete the .sln file
-* Replace .csproj files with simple .csproj file
+* Replace .csproj files with simple .csproj file... for libraries use:
   ```
   <Project Sdk="Microsoft.NET.Sdk">
   
@@ -29,8 +32,24 @@ dotnet new web
   
   </Project>
   ```
+  for executables use...
+  ```
+  <Project Sdk="Microsoft.NET.Sdk">
+  
+    <PropertyGroup>
+      <OutputType>Exe</OutputType>
+      <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+  
+  </Project>
+  ```
 * Remove `Properties` directories
+* Remove `packages.config` files
 * Add missing package references
   ```
   dotnet add package Newtonsoft.JSON
+  ```
+* Add missing project references
+  ```
+  dotnet add reference ../Project
   ```

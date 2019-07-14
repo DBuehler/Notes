@@ -2,4 +2,4 @@
 
 Notes related to web
 
-    * [HideShowRow](HideShowRows.md) - How to hide/show rows based on a check-box
+* [HideShowRow](HideShowRows.md) - How to hide/show rows based on a check-box

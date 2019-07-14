@@ -26,7 +26,8 @@ Taken from jsfiddle: https://jsfiddle.net/t38hzbnd
         <td>Big Car info</td>
         <td>extra info</td>
     </tr>
-</table>```
+</table>
+```
 
 # javascript
 

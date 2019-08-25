@@ -16,6 +16,12 @@ dotnet run
 dotnet new web
 ```
 
+## Build a .exe (publish)
+
+```
+dotnet publish -c Release -r win10-x64
+```
+
 ## Converting from dotnet framework
 
 Notes from converting a project of my from c# 4.6 to dotnet core

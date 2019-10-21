@@ -1,6 +1,7 @@
 # Notes > Linux > CIFS
 
-Fixing ```
+Fixing this error:
+```
 CIFS VFS: cifs_mount failed w/return code = -95
 ```
 

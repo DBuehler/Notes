@@ -2,7 +2,8 @@ How to use the git server on Homenas...
 
 # Create a new repository
 
-```ssh user@homenas
+```
+ssh user@homenas
 sudo /root/create_bare_git_repo.bash <repo name>
 ```
 

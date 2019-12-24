@@ -25,7 +25,7 @@ Note: logged in user must be in the git group on homenas
 
 Note: "git init --bare" results in wonky file and directory permissions, hence the chmods in the script...
 
-/volume1/homes/gituser/bin/create_bare_git_repo.bash...
+# Script: /volume1/homes/gituser/bin/create_bare_git_repo.bash
 
 ```#!/bin/bash
 

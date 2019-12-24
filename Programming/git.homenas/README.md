@@ -4,7 +4,13 @@ How to use the git server on Homenas...
 
 ```
 ssh user@homenas
-sudo /root/create_bare_git_repo.bash <repo name>
+sudo /volume1/homes/gituser/bin/create_bare_git_repo.bash <repo name>
+```
+
+or
+
+```
+ssh -x gituser@homenas /volume1/homes/gituser/bin/create_bare_git_repo.bash <repo name>
 ```
 
 # Clone an existing repository
@@ -12,7 +18,9 @@ sudo /root/create_bare_git_repo.bash <repo name>
 ```
 git clone ssh://homenas/volume1/git/<repo name>.git
 ```
- 
+
+Note: logged in user must be in the git group on homenas
+
 ----
 
 Note: "git init --bare" results in wonky file and directory permissions, hence the chmods in the script...

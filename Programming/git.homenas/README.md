@@ -9,8 +9,9 @@ sudo /root/create_bare_git_repo.bash <repo name>
 
 # Clone an existing repository
 
-<pre>git clone ssh://homenas/volume1/git/&lt;repo name&gt;.git
-</pre>
+```
+git clone ssh://homenas/volume1/git/<repo name>.git
+```
  
 ----
 

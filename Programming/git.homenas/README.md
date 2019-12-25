@@ -27,7 +27,8 @@ Note: "git init --bare" results in wonky file and directory permissions, hence t
 
 # Script: /volume1/homes/gituser/bin/create_bare_git_repo.bash
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 if [ -z "$1" ]; then
     echo "ERROR: Missing repository name on command line"

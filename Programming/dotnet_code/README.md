@@ -2,7 +2,7 @@
 
 ## Column Rulers
 
-(From: [Stack Overflow](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code)
+(From: [Stack Overflow](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code))
 
 File -> Preferences -> Settings
 

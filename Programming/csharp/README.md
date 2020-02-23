@@ -77,3 +77,7 @@ For NUnit tests...
   dotnet add package Microsoft.NET.Test.Sdk
   ```
 * Do: `dotnet test` to run tests
+
+# Good stuff
+
+* [Microsoft's dotnet naming guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)

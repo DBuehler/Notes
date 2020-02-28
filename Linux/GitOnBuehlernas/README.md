@@ -49,7 +49,7 @@ git update-server-info
 # References
 
 Links...
-* [https://gist.github.com/walkerjeffd/374750c366605cd5123d|Best reference on GitHub]
+* [Best reference on GitHub](https://gist.github.com/walkerjeffd/374750c366605cd5123d)
 
 Restart ssh service (note: locked up ssh - or I just wasn't patient enough)
  sudo synoservicectl --restart sshd

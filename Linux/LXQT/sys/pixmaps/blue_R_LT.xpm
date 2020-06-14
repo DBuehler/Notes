@@ -1,0 +1,26 @@
+/* XPM */
+static char *R_TL_blu[] = {
+/* columns rows colors chars-per-pixel */
+"32 16 4 1 ",
+"  c black",
+". c #00007F7FFFFF",
+"X c #808080808080",
+"o c None",
+/* pixels */
+"oooooooooooooooooooooooooooooooo",
+"                                ",
+"                                ",
+"  XXXXXXXXXXXXX  ......XXXXXXX  ",
+"  XXXXXXXXXXXXX  ......XXXXXXX  ",
+"  XXXXXXXXXXXXX  ......XXXXXXX  ",
+"  XXXXXXXXXXXXX  ......XXXXXXX  ",
+"  XXXXXXXXXXXXX  ......XXXXXXX  ",
+"  XXXXXXXXXXXXX  XXXXXXXXXXXXX  ",
+"  XXXXXXXXXXXXX  XXXXXXXXXXXXX  ",
+"  XXXXXXXXXXXXX  XXXXXXXXXXXXX  ",
+"  XXXXXXXXXXXXX  XXXXXXXXXXXXX  ",
+"  XXXXXXXXXXXXX  XXXXXXXXXXXXX  ",
+"                                ",
+"                                ",
+"oooooooooooooooooooooooooooooooo"
+};

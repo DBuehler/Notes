@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt MD M
+Exec=/usr/bin/urxvt -fn 8x13 -geometry 80x87+670+5
+Icon=/home/dbuehler/sys/pixmaps/white_M.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtMD

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt LG M
+Exec=/usr/bin/urxvt -fn 9x15 -geometry 80x75+670+5
+Icon=/home/dbuehler/sys/pixmaps/blue_M.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtLG

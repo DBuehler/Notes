@@ -1,0 +1,25 @@
+/* XPM */
+static char *BL_grn[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c black",
+". c green",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"                ",
+"                ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  .....XXXXXXX  ",
+"  .....XXXXXXX  ",
+"  .....XXXXXXX  ",
+"  .....XXXXXXX  ",
+"  .....XXXXXXX  ",
+"                ",
+"                ",
+"XXXXXXXXXXXXXXXX"
+};

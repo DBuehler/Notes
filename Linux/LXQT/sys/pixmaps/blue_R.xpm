@@ -1,0 +1,25 @@
+/* XPM */
+static char *R_blue[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c black",
+". c #00007F7FFFFF",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"                ",
+"                ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"  XXXXXX.....X  ",
+"                ",
+"                ",
+"XXXXXXXXXXXXXXXX"
+};

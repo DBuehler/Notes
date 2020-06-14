@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt LG RL
+Exec=/usr/bin/urxvt -fn 9x15 -geometry 80x75+1925+5
+Icon=/home/dbuehler/sys/pixmaps/blue_R_L.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtLG

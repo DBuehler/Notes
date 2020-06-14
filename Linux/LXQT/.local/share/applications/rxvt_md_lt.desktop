@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt MD LT
+Exec=/usr/bin/urxvt -fn 8x13 -geometry 80x42+5+5
+Icon=/home/dbuehler/sys/pixmaps/white_LT.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtMD

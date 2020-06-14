@@ -1,0 +1,25 @@
+/* XPM */
+static char *RT[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c black",
+". c gray60",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"                ",
+"                ",
+"  XXXXXX......  ",
+"  XXXXXX......  ",
+"  XXXXXX......  ",
+"  XXXXXX......  ",
+"  XXXXXX......  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"  XXXXXXXXXXXX  ",
+"                ",
+"                ",
+"XXXXXXXXXXXXXXXX"
+};

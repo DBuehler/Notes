@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt SM R
+Exec=/usr/bin/urxvt -fn 7x13 -geometry 80x87-69+5
+Icon=/home/dbuehler/sys/pixmaps/green_R.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtSM

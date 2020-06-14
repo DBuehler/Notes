@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<!-- This menu intended to be bound to Ctrl-right-mouse-click in window title -->
+
+<!-- On jig: monitor 1 is the right-hand monitor -->
+<!--         monitor 2 is the left-hand monitor -->
+
+<menu id="move-operations-menu" label="Local" icon="/home/dbuehler/sys/pixmaps/TL.xmp" >
+  <item label="TL" icon="/home/dbuehler/sys/pixmaps/To_TL.xpm" >
+    <action name="MoveResizeTo"><x>5</x><y>5</y></action>
+  </item>
+  <item label="TR" icon="/home/dbuehler/sys/pixmaps/To_TR.xpm" >
+    <action name="If">
+      <monitor>2</monitor>
+      <then>
+        <action name="MoveResizeTo" ><x>-5</x><y>5</y></action>
+      </then>
+      <else>
+        <action name="MoveResizeTo" ><x>-7</x><y>5</y></action>
+      </else>
+    </action>
+  </item>
+  <item label="BL" icon="/home/dbuehler/sys/pixmaps/To_BL.xpm" >
+    <action name="MoveResizeTo" ><x>5</x><y>-7</y></action>
+  </item>
+  <item label="BR" icon="/home/dbuehler/sys/pixmaps/To_BR.xpm" >
+    <action name="If">
+      <monitor>2</monitor>
+      <then>
+        <action name="MoveResizeTo" ><x>-5</x><y>-7</y></action>
+      </then>
+      <else>
+        <action name="MoveResizeTo" ><x>-7</x><y>-7</y></action>
+      </else>
+    </action>
+  </item>
+
+  <separator />
+
+  <item label="L-TL" icon="/home/dbuehler/sys/pixmaps/To_L_TL.xpm" >
+    <action name="MoveResizeTo" >
+      <x>5</x>
+      <y>5</y>
+      <monitor>1</monitor>
+    </action>
+  </item>
+  <item label="L-TR" icon="/home/dbuehler/sys/pixmaps/To_L_TR.xpm" >
+    <action name="MoveResizeTo" >
+      <x>-5</x>
+      <y>5</y>
+      <monitor>1</monitor>
+    </action>
+  </item>
+  <item label="R-TL" icon="/home/dbuehler/sys/pixmaps/To_R_TL.xpm" >
+    <action name="MoveResizeTo" >
+      <x>5</x>
+      <y>5</y>
+      <monitor>2</monitor>
+    </action>
+  </item>
+  <item label="R-TR" icon="/home/dbuehler/sys/pixmaps/To_R_TR.xpm" >
+    <!-- Expected x=-70 here, but x=-5 here puts it 5 to the left of -->
+    <!--          the right-hand panel.  Unexpected! -->
+    <action name="MoveResizeTo" ><x>-5</x><y>5</y><monitor>2</monitor></action>
+  </item>
+
+  <separator />
+
+  <item label="Top" >
+    <action name="MoveResizeTo" ><y>5</y></action>
+  </item>
+  <item label="Bottom">
+    <action name="MoveResizeTo" ><y>-7</y></action>
+  </item>
+
+</menu>
+
+</openbox_menu>

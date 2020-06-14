@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Rxvt MD RLB
+Exec=/usr/bin/urxvt -fn 8x13 -geometry 80x42+1925-37
+Icon=/home/dbuehler/sys/pixmaps/white_R_LB.xpm
+Terminal=false
+StartupNotify=false
+Categories=RxvtMD

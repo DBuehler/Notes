@@ -3,7 +3,7 @@ static char *L[] = {
 /* columns rows colors chars-per-pixel */
 "16 16 3 1 ",
 "  c black",
-". c gray60",
+". c white",
 "X c None",
 /* pixels */
 "XXXXXXXXXXXXXXXX",

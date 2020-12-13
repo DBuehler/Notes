@@ -323,6 +323,9 @@
         <direction>down</direction>
       </action>
     </keybind>
+    <keybind key="S-F1">
+      <action name="RaiseLower"/>
+    </keybind>
     <!-- Keybindings for running applications.
    Commented out as application shortcuts should be handled by lxqt-globalkeys in LXQt sessions.
   <keybind key="W-q">

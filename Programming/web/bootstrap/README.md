@@ -8,6 +8,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 ```
 
+# Container
+
+Everything needs to be done inside a div with class container.
+
 # Columns
 
 ```
@@ -32,6 +36,8 @@ Column sizes:
 * `col-lg-`: large
 * `col-xl-`: extra large
 
+So... class="col-md-8" means that for a medium-sized screen (and larger) the
+cell/div should take 8 of the available column slots.
 
 ## Specifying column widths
 

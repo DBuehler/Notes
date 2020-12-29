@@ -6,13 +6,13 @@
 
 File -> Preferences -> Settings
 
-```
+```ini
 "editor.rulers": [80,120]
 ```
 
 Change color of ruler lines:
 
-```
+```json
 "workbench.colorCustomizations": {
     "editorRuler.foreground": "#ff4081"
 }
@@ -22,7 +22,7 @@ Change color of ruler lines:
 
 c-sharp specific in `csharp.json`...
 
-```
+```json
 {
   "Class File": {
     "prefix": ["classfile"],

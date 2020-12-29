@@ -3,7 +3,7 @@
 ## Notes from Pluralsight course
 
 * Patterns
-    * Constructor Injection
+  * Constructor Injection
     * Property Injection
     * Method Injection
     * Ambient Context

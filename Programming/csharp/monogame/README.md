@@ -11,4 +11,3 @@ for part of their build.
 * `dotnet new mgdesktopgl -o MyGame`
 
 I got a message up update MonoGame.Template.CSharp using the command `dotnet new -i MonoGame.Template.CSharp::3.7.0.7`
-

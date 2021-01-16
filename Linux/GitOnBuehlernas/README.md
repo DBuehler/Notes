@@ -3,7 +3,7 @@ How to use the git server on Buehlernas...
 Create a new repository
 ```
  ssh dbuehler@buehlernas
- sudo /root/create_bare_git_repo.bash <repo name>
+ sudo /volume1/homes/dbuehler/create_bare_git_repo.bash <repo name>
 ```
 Clone an existing repository
 ```

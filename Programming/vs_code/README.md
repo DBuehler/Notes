@@ -6,7 +6,7 @@
 
 File -> Preferences -> Settings
 
-```ini
+```json
 "editor.rulers": [80,120]
 ```
 

@@ -19,6 +19,11 @@ ssh -x gituser@homenas /volume1/homes/gituser/bin/create_bare_git_repo.bash <rep
 git clone ssh://homenas/volume1/git/<repo name>.git
 ```
 
+```bash
+git clone ssh://<user@>homenas<:port>/volume1/git/<repo name>.git
+```
+
+
 Note: logged in user must be in the git group on homenas
 
 ----

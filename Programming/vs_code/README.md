@@ -1,5 +1,11 @@
 # Dotnet Code
 
+## Markdown Preview
+
+`CTRL-SHIFT-V`: Open markdown preview
+
+`CTRL-K V`: Open markdown preview side-by-side
+
 ## Column Rulers
 
 (From: [Stack Overflow](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code))

@@ -21,3 +21,4 @@ into this transition until I see how well it works.
   * [web](Programming/web/README.md)
 * [RPG](RPG/README.md)
 * [Windows](Windows/README.md)
+* [VMWare](VMWare/README.md)

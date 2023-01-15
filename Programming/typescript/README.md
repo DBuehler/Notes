@@ -21,6 +21,7 @@ $ # alternative: yarn add typescript
 
 ```sh
 $ node node_modules/typescript/bin/tsc --init
+$ node_modules/.bin/tsc --init
 ```
 
 Suggestions for settings to use:
@@ -56,6 +57,7 @@ Run tsc continuously, re-compiling whenever changes are saved...
 
 ```sh
 $ node node_modules/typescript/bin/tsc -w
+$ node_modules/.bin/tsc -w
 ```
 
 Run the output...
@@ -71,6 +73,13 @@ Add eslint linting...
 ```sh
 $ npm install -D eslint
 $ npx eslint --init
+```
+
+Use [ts-node](https://github.com/TypeStrong/ts-node) (Typescript execution and
+REPL for node.js)
+
+```sh
+$ npm install -D ts-node
 ```
 
 ## Installing Node

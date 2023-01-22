@@ -13,8 +13,9 @@ typescript next works well...
 
 ```sh
 $ npm install -D typescript
-$ # alternative: npm install -g typescript
+$ # alternative - add typescript globally: npm install -g typescript
 $ # alternative: yarn add typescript
+$ # consider installing ts-node (globally) - it allows you to compile and run the compiled output with a single command
 ```
 
 ## Generate tsconfig.json

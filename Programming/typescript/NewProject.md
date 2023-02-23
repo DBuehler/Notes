@@ -23,6 +23,7 @@ $ # consider installing ts-node (globally) - it allows you to compile and run th
 ```sh
 $ node node_modules/typescript/bin/tsc --init
 $ node_modules/.bin/tsc --init
+$ npx tsc init
 ```
 
 Suggestions for settings to use:

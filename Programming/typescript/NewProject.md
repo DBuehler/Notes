@@ -60,6 +60,7 @@ Run tsc continuously, re-compiling whenever changes are saved...
 ```sh
 $ node node_modules/typescript/bin/tsc -w
 $ node_modules/.bin/tsc -w
+$ npx tsc -w
 ```
 
 Run the output...
@@ -82,6 +83,7 @@ REPL for node.js)
 
 ```sh
 $ npm install -D ts-node
+$ yarn add -D ts-node
 ```
 
 ## Installing Node

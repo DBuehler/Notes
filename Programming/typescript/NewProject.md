@@ -1,4 +1,4 @@
-# Typescript - New Project 
+# Typescript - New Project
 
 (assuming node is installed)
 
@@ -89,6 +89,6 @@ Installing from binary tarball (downloaded from nodejs.org)...
 
 ```sh
 $ cd /usr/local
-$ sudo tar --script-components 1 -xvf ~/Downloads/node<version>.tar.xz | tee /tmp/tarxnode.log
+$ sudo tar --strip-components 1 -xvf ~/Downloads/node<version>.tar.xz | tee /tmp/tarxnode.log
 $ sudo rm CHANGELOG.md LICENSE README.md
 ```

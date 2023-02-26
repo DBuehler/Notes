@@ -1,5 +1,37 @@
 # Typescript - New Project
 
+Finding lots of project setup resources recently (because I started looking)
+
+- [khalilstemmler.com](https://khalilstemmler.com/blogs/typescript/node-starter-project/) - Given here (mostly)
+- [abrahamberg.com](https://www.abrahamberg.com/blog/how-to-setup-typescript-project-dev-environment-like-a-pro/) -
+  Adds vercel/ncc for packaging distributable to a single output file and jest for testing
+- [digitalocean.com](https://www.digitalocean.com/community/tutorials/typescript-new-project) - Suggests using
+  [Google Typescript Style](https://github.com/google/ts-style) package for styling/linting/autocorrection
+
+```sh
+$ mkdir my-proj
+$ cd my-proj
+$ npm init -y
+$ npm install typescript --save-dev
+$ npm install @types/node --save-dev
+$ npx tsc --init --rootDir src --outDir dist --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
+$ mkdir src
+$ mkdir dist
+$ npm install --save-dev ts-node nodemon
+$ cat > nodemon.json
+{
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "npx ts-node ./src/index.ts"
+}
+<ctrl-d>
+# add to package.json/scripts...
+"start:dev": "npx nodemon",
+```
+
+## OLD STUFF
+
 (assuming node is installed)
 
 ```sh

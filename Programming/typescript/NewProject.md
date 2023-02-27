@@ -30,6 +30,11 @@ $ cat > nodemon.json
 "start:dev": "npx nodemon",
 ```
 
+## Compiling
+
+Note: to compile just execute `$ npx tsc` from the top-level directory (where the `tsconfig.json` file is located) - if you do `$ npx tsc src/index.ts` it
+will put the output `.js` files next to their source `.ts` files.
+
 ## OLD STUFF
 
 (assuming node is installed)

@@ -1,4 +1,4 @@
-# Dotnet code
+# Dotnet core
 
 ## Installing ef (Entity Framework) tools
 
